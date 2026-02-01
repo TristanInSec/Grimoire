@@ -1,0 +1,47 @@
+{
+  "site": {
+    "name": "Grimoire",
+    "url": "https://github.com/TristanInSec/Grimoire",
+    "description": "Static Site Generator",
+    "github_url": "https://github.com/TristanInSec/Grimoire"
+  },
+  "seo": {
+    "index_description": "{site_name} - Static Site Generator for Documentation Websites",
+    "page_description_template": "Learn about {title} in {category}. Documentation from {site_name}.",
+    "keywords": "markdown, html, static site generator, documentation, wiki, grimoire"
+  },
+  "paths": {
+    "content_folder": "input/notes",
+    "pages_folder": "input/pages",
+    "output_folder": "output",
+    "exclude_folders": [".git", "__pycache__", "node_modules", ".obsidian", ".trash", ".DS_Store"]
+  },
+  "ui": {
+    "show_recent": true,
+    "show_bookmarks": true,
+    "show_contribute": true,
+    "contribute_text": "Contribute",
+    "contribute_url": "./contribute.html",
+    "strip_number_prefix": true,
+    "category_icons": {
+      "getting started": "fa-rocket",
+      "guides": "fa-book",
+      "reference": "fa-cog",
+      "tutorials": "fa-graduation-cap"
+    },
+    "default_icon": "fas fa-folder"
+  },
+  "formatting": {
+    "acronyms": ["api", "html", "css", "js", "sql", "http", "https", "json", "xml", "yaml", "cli", "url", "sdk"],
+    "display_name_overrides": {}
+  },
+  "footer": {
+    "show_copyright": true,
+    "show_timestamp": true,
+    "show_powered_by": true,
+    "copyright_text": ""
+  },
+  "generator": {
+    "generate_sitemap": true
+  }
+}
