@@ -1333,6 +1333,5 @@ def main():
     # Footer
     print(f"[+] Done! Generated {len(converter.all_pages)} pages")
 
-
 if __name__ == '__main__':
     main()
