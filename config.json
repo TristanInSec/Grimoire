@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "Grimoire",
-    "url": "https://github.com/TristanInSec/Grimoire",
+    "url": "https://tristaninsec.github.io/Grimoire", 
     "description": "Static Site Generator",
     "github_url": "https://github.com/TristanInSec/Grimoire"
   },
@@ -24,10 +24,10 @@
     "contribute_url": "./contribute.html",
     "strip_number_prefix": true,
     "category_icons": {
-      "getting started": "fa-rocket",
-      "guides": "fa-book",
-      "reference": "fa-cog",
-      "tutorials": "fa-graduation-cap"
+      "getting started": "fas fa-rocket",
+      "guides": "fas fa-book",
+      "reference": "fas fa-cog",
+      "tutorials": "fas fa-graduation-cap"
     },
     "default_icon": "fas fa-folder"
   },
