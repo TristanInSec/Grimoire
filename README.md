@@ -3,7 +3,10 @@
 A lightweight static site generator that converts Markdown files into beautiful documentation websites.
 
 **Repository:** https://github.com/TristanInSec/Grimoire
+
 **Live Demo:** https://tristaninsec.github.io/Grimoire/
+
+**Screenshot:** 
 
 ![Grimoire - Generated Documentation Website](screenshots/website.png)
 
@@ -14,6 +17,7 @@ A lightweight static site generator that converts Markdown files into beautiful 
 - **Smart Display Names** - Auto-strips number prefixes, capitalizes acronyms
 - **AJAX Navigation** - Smooth page transitions, browser history support
 - **Full-Text Search** - Real-time search with highlighting
+- **Auto Table of Contents** - Per-page TOC with scroll-aware highlighting
 - **Bookmarks & Recent** - Persistent via localStorage
 - **Dark/Light Theme** - Toggle with automatic persistence
 - **Mobile Responsive** - Slide-out navigation on mobile
